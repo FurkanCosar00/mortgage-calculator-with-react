@@ -89,7 +89,7 @@ function ResultSection({ aylikOdeme, toplamOdeme, showResults }) {
       </div>
 
       <div className="emptyResultSection" style={{ display: showResults ? 'none' : 'block' }}>
-        <img src="public/images/emptyResults.png" alt="" />
+        <img src="./images/emptyResults.png" alt="" />
         <h1>Results shown here</h1>
         <p>Complete the form and click “calculate repayments” to see what your monthly repayments would be.</p>
       </div>
